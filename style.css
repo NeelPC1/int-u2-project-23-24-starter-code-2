@@ -6,10 +6,8 @@ h1 {
 /* The code below centers all images on the page and gives them a width of 400px. */
 video {
   display: block;
-  margin-left: 5px;
-  margin-right: auto;
-  width:700px;
-  
+  float:left;
+  width:1000px;
 }
 
 /* The code below centers the text of all h2's on the page. */
@@ -27,4 +25,16 @@ h2 {
 .section {
     border: 5px black solid;
     margin:5px;
+}
+.info{
+    background-color:#00aab7 ;
+    color:#f1ece9;
+    float:right;
+    width:770px;
+    border-radius: 5px;
+    border-color:lightyellow;
+}
+
+top{
+    justify-content: space-evenly;
 }
