@@ -25,16 +25,56 @@ h2 {
 .section {
     border: 5px black solid;
     margin:5px;
+    text-align: center;
+    border-radius: 100%;
+    width:300px;
+    height: 300px;
+    align-items: center;
+    display:flex;
+    color:#000000ff ;
+    background-color:#F05C5C;
+
 }
 .info{
-    background-color:#00aab7 ;
-    color:#f1ece9;
+    background-color:#b3c7f7 ;
+    color:black;
     float:right;
-    width:770px;
+    width:700px;
     border-radius: 5px;
     border-color:lightyellow;
+    margin-top: 100px;
+    border-right: 100px;
+    font-size: large;
+    text-align: center;
 }
 
 top{
     justify-content: space-evenly;
+}
+
+h1{
+  background-color:#b3c7f7 ;  
+  margin-top: 20px;
+  box-sizing: border-box;
+  border-color: white;
+  border-width: 2px;
+  border-bottom: white;
+}
+body{
+    background-color:#b3c7f7 ;  
+}
+h6{
+    font-weight: bolder;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.polar{
+    width: 200px;
+    height:200px
+}
+
+.carouselslide{
+    width:1200px;
+    height: 700px;
 }
