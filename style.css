@@ -5,9 +5,11 @@ h1 {
 
 /* The code below centers all images on the page and gives them a width of 400px. */
 video {
+margin-left: 50px;
   display: block;
   float:left;
   width:1000px;
+  border-radius: 10%;
 }
 
 /* The code below centers the text of all h2's on the page. */
@@ -23,7 +25,6 @@ h2 {
 
 /* The code below a solid black border to section and puts space between them (the margin). */
 .section {
-    border: 5px black solid;
     margin:5px;
     text-align: center;
     border-radius: 100%;
@@ -33,10 +34,13 @@ h2 {
     display:flex;
     color:#000000ff ;
     background-color:#F05C5C;
+    margin-top: 100px;
+    margin-right:50px;
+    margin-left:50px;
 
 }
 .info{
-    background-color:#b3c7f7 ;
+    background-color:white ;
     color:black;
     float:right;
     width:700px;
@@ -46,6 +50,9 @@ h2 {
     border-right: 100px;
     font-size: large;
     text-align: center;
+    margin-right: 30px;
+    padding-top:50px;
+    padding-bottom:50px;
 }
 
 top{
@@ -59,6 +66,7 @@ h1{
   border-color: white;
   border-width: 2px;
   border-bottom: white;
+  color:black
 }
 body{
     background-color:#b3c7f7 ;  
@@ -77,4 +85,13 @@ h6{
 .carouselslide{
     width:1200px;
     height: 700px;
+}
+
+h1{
+    background-color: #f7f2ea;
+    padding:50px;
+    border-radius: 1%;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-weight: bold;
 }
